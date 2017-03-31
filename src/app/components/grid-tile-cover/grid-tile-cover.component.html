@@ -1,0 +1,8 @@
+<div class="cover" [routerLink]="['/game', game.id]" (mouseenter)="selected = true" (mouseleave)="selected = false">
+  <div id="ele" class="element" [style.background-image]="'url(' + game.imgPath + ')'"
+      [class.focus]="selected === true">
+    <div class="title">
+      <p>{{game.name}}</p>
+    </div>
+  </div>
+</div>

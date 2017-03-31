@@ -1,7 +1,6 @@
 <section>
   <div class="grid-view" *ngIf="games">
-    <app-grid-tile *ngFor="let game of reveredGames()" [game]="game">
-      
-    </app-grid-tile>
+    <app-grid-tile-cover *ngFor="let game of reveredGames()" [game]="game" class="tile">
+    </app-grid-tile-cover>
   </div>
 </section>
