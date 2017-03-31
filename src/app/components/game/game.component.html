@@ -1,0 +1,7 @@
+<section>
+  <div *ngIf="game">
+    <h2>{{game.name}}</h2>
+    <p>{{getLink()}}</p>
+    <iframe width="560" height="315" [src]="getLink() | safe" frameborder="0" allowfullscreen></iframe>
+  </div>
+</section>

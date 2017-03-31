@@ -1,3 +1,14 @@
-<h1>
-  {{title}}
-</h1>
+<div class="bg-top">
+  <div class="header-container">
+    <div class="gear"> <img src="{{gearImage}}" />
+      </div>
+    <div class="g2">
+      <h1 class="title">
+        {{title | uppercase}}<br>{{subTitle | uppercase}}
+      </h1>
+      <p class="supText">db</p>
+    </div>
+  </div>
+</div>
+<search-comp></search-comp>
+<router-outlet></router-outlet>

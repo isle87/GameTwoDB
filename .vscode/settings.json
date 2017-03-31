@@ -1,0 +1,27 @@
+// Platzieren Sie Ihre Einstellungen in dieser Datei, um Standard- und Benutzereinstellungen zu überschreiben.
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "**/node_modules": true,
+        "**/e2e": true,
+        "**/karmaconf.js": true,
+        "**/README.md": true,
+        "**/.angular-cli.json": true,
+        "**/.editorconfig": true,
+        "**/karma.conf.js": true,
+        "**/protractor.conf.js": true,
+        "**/tsconfig.json": true,
+        "**/tslint.json": true,
+        "**/tsconfig.spec.json": true,
+        "**/tsconfig.app.json": true,
+        "**/polyfills.ts": true,
+        "**/favicon.ico": true,
+        "**/test.ts": true
+    },
+    "vsicons.presets.angular": true,
+    "angulardoc.repoId": "85feb98a-8f93-4905-b5ba-fb7cdee3714a",
+    "angulardoc.lastSync": 1490877111259,
+}
