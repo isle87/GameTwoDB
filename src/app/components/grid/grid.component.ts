@@ -9,19 +9,19 @@ import { Component, OnInit } from '@angular/core';
   providers: [GameService]
 })
 export class GridComponent implements OnInit {
-  games : Game[];
+  games: Game[];
 
-  constructor(private gameService : GameService) {  }
+  constructor(private gameService: GameService) {  }
 
   ngOnInit() {
     this.getGames();
   }
 
-  getGames() : void {
+  getGames(): void {
     this.gameService.getGames().then(game => this.games = game);
   }
 
-  reveredGames() : Game[] {
+  reveredGames(): Game[] {
     return this.games.reverse();
   }
 }

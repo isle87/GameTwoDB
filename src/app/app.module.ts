@@ -11,6 +11,7 @@ import { GameService } from './service/game.service';
 import { GridComponent } from './components/grid/grid.component';
 import { GameComponent } from './components/game/game.component';
 import { SafePipe } from './safe.pipe';
+import { GridTileComponent } from './components/grid-tile/grid-tile.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { SafePipe } from './safe.pipe';
     SearchComponent,
     GridComponent,
     GameComponent,
-    SafePipe
+    SafePipe,
+    GridTileComponent
   ],
   imports: [
     BrowserModule,

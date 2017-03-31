@@ -1,0 +1,8 @@
+<div class="elements" [routerLink]="['/game', game.id]">
+  <div class="element image" [ngStyle]="{'background-image': 'url(' + game.imgPath + ')'}"></div>
+    <div class="element game-title">
+      <h4>{{game.name}}</h4>
+      <p>GameTwo #{{game.episode}}</p>
+    </div>
+  <div class="element overlap"></div>
+</div>
